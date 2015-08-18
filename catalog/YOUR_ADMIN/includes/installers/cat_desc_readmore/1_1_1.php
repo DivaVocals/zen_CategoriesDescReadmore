@@ -1,0 +1,3 @@
+<?php
+
+$db->Execute("INSERT INTO " . TABLE_CONFIGURATION . " (configuration_group_id, configuration_key, configuration_title, configuration_value, configuration_description, set_function) VALUES (" . (int) $configuration_group_id . ", 'CAT_DESC_READMORE_LESS_DIV_SUB', 'Categories Description Div with no sub categories', 'indexProductListCatDescription', 'The id value of the categories description div with no sub categories (default: indexProductListCatDescription)', '');");
